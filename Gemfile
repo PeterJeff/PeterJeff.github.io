@@ -1,7 +1,3 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
-gem "jekyll-watch"
-gem "redcarpet"
-gem "kramdown"
-gem "rouge"
+gem 'jekyll-archives'

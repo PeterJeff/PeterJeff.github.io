@@ -1,17 +1,45 @@
 ---
 layout: default
+title: Peter Jefferys
 ---
 
-<div class="home">
+{% comment %}
+{% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span> is your last template theme ever!" button-text="Buy Now" %}
+{% endcomment %}
 
-  <h1 class="page-heading">Blog</h1>
+{% include sections/about.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% comment %}
+{% include sections/features.html %}
+{% endcomment %}
+
+{% include sections/parallax-features.html %}
+
+{% include sections/portfolio.html %}
+
+
+{% comment %}
+{% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span> is here, download now!" button-text="Buy Now" %}
+{% endcomment %}
+
+{% comment %}
+{% include sections/testimonials.html %}
+{% endcomment %}
+
+{% include sections/blog.html %}
+
+{% comment %}
+{% include sections/team.html %}
+{% endcomment %}
+
+{% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span>, a new generation of themes!" button-text="Buy Now" %}
+
+{% comment %}
+{% include sections/prices.html %}
+{% endcomment %}
+
+{% include sections/contact.html %}
+
+{% comment %}
+{% include sections/offer.html offer-text="<strong>S</strong><span class=\"thin\">era</span> is here, download now!" button-text="Buy Now" %}
+{% endcomment %}

@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="{{ site.lang }}">
 
   {% include head.html %}
 
   <body>
 
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader"><span class="load-icon"></span></div>
+
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
 
     {% include footer.html %}
+
+    {% include scripts.html %}
 
   </body>
 

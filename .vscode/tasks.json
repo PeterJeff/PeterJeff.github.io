@@ -1,0 +1,50 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "gulp",
+            "task": "watch",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "default",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "browser-sync",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "install",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "gulp",
+            "task": "jekyll-build",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "jekyll-rebuild",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "deploy",
+            "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "jekyll-watch",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,11 +1,11 @@
-var gulp        = require('gulp');
+var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var sass        = require('gulp-sass');
-var prefix      = require('gulp-autoprefixer');
-var cp          = require('child_process');
-var jekyll      = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var sass = require('gulp-sass');
+var prefix = require('gulp-autoprefixer');
+var cp = require('child_process');
+var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var deploy = require("gulp-gh-pages");
-var messages    = {
+var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
@@ -14,7 +14,8 @@ var messages    = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+
+    return cp.spawn(jekyll, ['build'], { stdio: 'inherit' })
         .on('close', done);
 });
 
@@ -25,10 +26,27 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
+
+gulp.task('jekyll-watch', ['jekyll-build'], function (done) {
+    browserSync.notify(messages.jekyllBuild);
+
+    gulp.watch(['_scss/*.scss', '_scss/*/*.scss'], ['sass']);
+    gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
+
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+    return cp.spawn(jekyll, ['build', '--watch', '--incremental', '--force_polling'], { stdio: 'inherit' })
+    .on('close', done);
+});
+
+
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
     browserSync({
         server: {
             baseDir: '_site'
@@ -42,15 +60,15 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 gulp.task('sass', function () {
     return gulp.src('_scss/*.scss')
         .pipe(sass({
-          outputStyle: 'expanded',
-          // sourceComments: 'map',
-          includePaths: ['scss'],
-          onError: browserSync.notify('Error in sass')
+            outputStyle: 'expanded',
+            // sourceComments: 'map',
+            includePaths: ['scss'],
+            onError: browserSync.notify('Error in sass')
         }))
         .on('error', sass.logError)
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
+        .pipe(browserSync.reload({ stream: true }))
         .pipe(gulp.dest('css'));
 });
 
@@ -61,6 +79,7 @@ gulp.task('sass', function () {
 gulp.task('watch', function () {
     gulp.watch(['_scss/*.scss', '_scss/*/*.scss'], ['sass']);
     gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
+
 });
 
 /**

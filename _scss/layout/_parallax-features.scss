@@ -21,7 +21,18 @@ section.parallax-features-section {
       background: $white;
     }
   }
+  .cover img {
+    left: 0%;
+    -webkit-transform: translate(-0%, -50%);
+    -ms-transform: translate(-0%, -50%);
+    transform: translate(-0%, -50%);
+  }
+  .section-content{
 
+    p {
+      text-shadow: 1px 1px 2px black, 0 0 1em #464646, 0 0 0.2em black;
+    }
+  }
   // Section Features
   .section-features {
     margin-top: 80px;
@@ -57,6 +68,9 @@ section.parallax-features-section {
       display: block;
       width: 100%;
       margin-bottom: 30px;
+      background: rgba(0, 0, 0, 0.8);
+  
+      padding: 10px;
 
       // Text Wrap
       .text-wrap {

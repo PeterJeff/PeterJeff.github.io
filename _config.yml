@@ -1,4 +1,4 @@
-#
+# bundle exec gulp --watch
 # Sera - OnePage Jekyll Template
 # Configuration File
 #
@@ -62,7 +62,7 @@ headter-tagline: Let's build
 # Focus Buttons
 header-focus-button:
   title: Resume
-  url: https://themeforest.net/collections/6069390-sera
+  url: https://drive.google.com/file/d/1-liMXWR0aTtOn1Bf02A5Mma9kJq4oGvE/view
 
 # Secondary Buttons
 header-secondary-button:
@@ -78,7 +78,7 @@ email: peter.b.jefferys@gmail.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://drive.google.com/file/d/1-liMXWR0aTtOn1Bf02A5Mma9kJq4oGvE/view
 
 ####################################
 ######  Global Social Links   ######
@@ -135,15 +135,15 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: Hi I'm Peter Jefferys
+about-description: I'm looking to break into the game development industry and apply what I have learned.  Videogames have always played a large part in my life growing up and now it's my turn to contribute.
 
 
 #####################################
 #############  Features  ############
 #####################################
 features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+features-description: FullSail University gave me the education and training I need to create and debug game engines and gameplay systems mainly in C++ and C#.
 
 #
 # Features
@@ -175,7 +175,7 @@ portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex
 #
 # Portfolio Grid
 #
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio-categories: [Games, SideProjects, Websites ]
 portfolio:
 
 # Portfolio Item
@@ -236,8 +236,9 @@ portfolio:
 #####################################
 ##########   Main Skills   ##########
 #####################################
-core-title: Main Skills
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-title: Skills
+core-description: My bachelors in Game Development gave me the education and training I need to create and debug game engines and gameplay systems mainly in C++ and C#.
+
 
 #
 # Core Features Left
@@ -245,24 +246,24 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: C++
+  description: My favorite programming language.  C++ 11 & 17
   icon: pe-7s-light
 
-# Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
+# # Feature
+- name: Performance Profiling
+  description: VS Performance profiler, Intel VTune
+  icon: pe-7s-graph1
 
 # Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-coffee
+- name: DirectX
+  description: DX11 HLSL - lighting, Geometry & Compute shaders
+  icon: pe-7s-photo
 
 # Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+- name: Unity
+  description: Game prototype projects & VRChat Avatars.
+  icon: pe-7s-plugin
 
 #
 # Core Features Right
@@ -270,189 +271,188 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+- name: Git
+  description: Standard source control usage & recovery
+  icon: pe-7s-cloud-upload
 
-# Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  # Feature
+- name: Graphics Debugging
+  description: VS Grahpics Debugger & Nvidia Nsight.
   icon: pe-7s-monitor
 
 # Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
+- name: Teamwork
+  description: Two team projects (Unity & C++ Custom)
+  icon: pe-7s-users
 
 # Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+- name: Visual Studio 2017
+  description: Your standard primary IDE experience
+  icon: pe-7s-tools
 
 
 #####################################
 ########### Testimonials ############
 #####################################
-testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+# testimonials-title: Testimonials
+# testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
 
-#
-# Testimonials
-#
-testimonials:
+# #
+# # Testimonials
+# #
+# testimonials:
 
-# Client
-- name: Johnatan Doe
-  url: http://themeforest.net
-  url-text: ThemeForest.net
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
+# # Client
+# - name: Johnatan Doe
+#   url: http://themeforest.net
+#   url-text: ThemeForest.net
+#   avatar: avatar-01.jpg
+#   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#   logo-img: themeforest.png
 
-# Client
-- name: Adam Smith
-  url: http://codecanyon.net
-  url-text: CodeCanyon.net
-  avatar: avatar-02.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
+# # Client
+# - name: Adam Smith
+#   url: http://codecanyon.net
+#   url-text: CodeCanyon.net
+#   avatar: avatar-02.jpg
+#   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#   logo-img: codecanyon.png
 
-# Client
-- name: Irene Warner
-  url: http://videohive.net
-  url-text: VideoHive.net
-  avatar: avatar-03.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
+# # Client
+# - name: Irene Warner
+#   url: http://videohive.net
+#   url-text: VideoHive.net
+#   avatar: avatar-03.jpg
+#   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#   logo-img: videohive.png
 
-# Client
-- name: Richard Ryan
-  url: http://audiojungle.net
-  url-text: AudioJungle.net
-  avatar: avatar-04.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
+# # Client
+# - name: Richard Ryan
+#   url: http://audiojungle.net
+#   url-text: AudioJungle.net
+#   avatar: avatar-04.jpg
+#   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+#   logo-img: audiojungle.png
 
 
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
+blog-title: My Blog
+blog-description: Just some fun or weird stuff I learned while working on different things.
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+# team-title: Meet Our Team
+# team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
-#
-# Team Members
-#
-team:
+# #
+# # Team Members
+# #
+# team:
 
-# Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
+# # Team Member
+# - name: Jack Skilton
+#   tagline: Graphic Designer
+#   avatar: avatar-01.jpg
 
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+#   # Social Links
+#   youtube: '#'
+#   pinterest: '#'
+#   facebook: '#'
+#   twitter: '#'
+#   google-plus: '#'
+#   vimeo: '#'
 
-# Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
+# # Team Member
+# - name: James Young
+#   tagline: Developer
+#   avatar: avatar-02.jpg
 
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+#   # Social Links
+#   youtube: '#'
+#   pinterest: '#'
+#   facebook: '#'
+#   twitter: '#'
+#   google-plus: '#'
+#   vimeo: '#'
 
-# Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
+# # Team Member
+# - name: Johnatan Doe
+#   tagline: Hacker
+#   avatar: avatar-04.jpg
 
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+#   # Social Links
+#   youtube: '#'
+#   pinterest: '#'
+#   facebook: '#'
+#   twitter: '#'
+#   google-plus: '#'
+#   vimeo: '#'
 
-# Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
+# # Team Member
+# - name: Ecaterina Doe
+#   tagline: Support Expert
+#   avatar: avatar-03.jpg
 
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+#   # Social Links
+#   youtube: '#'
+#   pinterest: '#'
+#   facebook: '#'
+#   twitter: '#'
+#   google-plus: '#'
+#   vimeo: '#'
 
 
 #####################################
 ########## Pricing Tables ###########
 #####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+# pricing-title: Pricing Tables
+# pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
 
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
+# #
+# # Plan Personal
+# #
+# plan-personal-price: $99
+# plan-personal-offer-1-title: 01 PSD Pack
+# plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-personal-offer-2-title: 100 Support Tickets
+# plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-personal-url: '#'
 
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
+# #
+# # Plan Business
+# #
+# plan-business-price: $499
+# plan-business-offer-1-title: 05 PSD Pack
+# plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-business-offer-2-title: 1000 Support Tickets
+# plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-business-url: '#'
 
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
+# #
+# # Plan Ultimate
+# #
+# plan-ultimate-price: $999
+# plan-ultimate-offer-1-title: 10 PSD Pack
+# plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-ultimate-offer-2-title: Support Unlimited
+# plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+# plan-ultimate-url: '#'
 
 
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Contact Me
+contact-description: I'd love to talk with you about any job opportunities.  Give me a call, email me or send a message through here.
 
 
 #####################################
 #############   Footer   ############
 #####################################
 footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Gleesik&trade;
-footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2016
+# footer-copyright-text: Gleesik&trade;
+# footer-copyright-url: http://gleesik.ro/
+footer-copyright-year: 2018

@@ -4157,6 +4157,10 @@ section.parallax-features-section .cover img {
   transform: translate(0%, -50%);
 }
 
+section.parallax-features-section .section-content p {
+  text-shadow: 1px 1px 2px black, 0 0 1em #464646, 0 0 0.2em black;
+}
+
 section.parallax-features-section .section-features {
   margin-top: 80px;
 }
@@ -4187,6 +4191,8 @@ section.parallax-features-section .section-features .feature {
   display: block;
   width: 100%;
   margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
 }
 
 section.parallax-features-section .section-features .feature .text-wrap {

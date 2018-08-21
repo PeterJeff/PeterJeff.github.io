@@ -282,7 +282,7 @@ table {
   min-width: 100%;
   min-height: 120%;
   max-width: inherit;
-  max-height: 140%;
+  max-height: inherit;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -3179,6 +3179,10 @@ header.site-header .site-navigation-bar .logo img {
   float: left;
 }
 
+header.site-header .site-navigation-bar .logo a {
+  font-size: 2.0rem;
+}
+
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
   position: relative;
   display: block;
@@ -4144,6 +4148,13 @@ section.parallax-features-section header.section-header h2, section.parallax-fea
 
 section.parallax-features-section header.section-header hr {
   background: #fff;
+}
+
+section.parallax-features-section .cover img {
+  left: 0%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
 }
 
 section.parallax-features-section .section-features {

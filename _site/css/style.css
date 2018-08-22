@@ -4004,6 +4004,7 @@ section.portfolio-section .portfolio-grid .item {
   display: block;
   position: relative;
   overflow: hidden;
+  max-height: 200px;
   margin-bottom: 30px;
   -webkit-transform: scale(0.95);
       -ms-transform: scale(0.95);
@@ -4086,6 +4087,8 @@ section.portfolio-section .portfolio-grid .item .item-content h3, section.portfo
 section.portfolio-section .portfolio-grid .item .item-content h3 {
   font-size: 2rem;
   margin-bottom: 10px;
+  max-width: 300px;
+  text-align: center;
 }
 
 section.portfolio-section .portfolio-grid .item .item-content .links {

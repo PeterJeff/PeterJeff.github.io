@@ -69,6 +69,8 @@ header-secondary-button:
   title: LinkedIn
   url: https://www.linkedin.com/in/peter-jefferys/
 
+  linkedin: https://www.linkedin.com/in/peter-jefferys/
+
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
@@ -180,39 +182,39 @@ portfolio:
 
 # Portfolio Item
 - title: D<span class="thin">eltaMind</span>
-  categories: [Games]
+  categories: [Games, Development]
   image: deltamind.jpg
   url: '#'
 
 # Portfolio Item
 - title: A<span class="thin">ge of The Void</span>
-  categories: [Games]
+  categories: [Games, Development]
   image: AoTV.jpg
   url: '#'
 
 # Portfolio Item
-- title: A<span class="thin">rduino</span> GPS System
+- title: A<span class="thin">rduino GPS Project</span>
   categories: [SideProjects]
   image: AGPS.jpg
-  url: '#'
+  url: 'https://github.com/FSPeterJ/GeoCacheProject'
+
+# # Portfolio Item
+# - title: F<span class="thin">irst Game</span>
+#   categories: [Games]
+#   image: First.jpg
+#   url: '#'
 
 # Portfolio Item
-- title: F<span class="thin">irst</span> Game
-  categories: [Games]
-  image: First.jpg
-  url: '#'
-
-# Portfolio Item
-- title: A<span class="thin">ctive</span> Controls Database
-  categories: [Development, Work]
+- title: A<span class="thin">ctive Controls Database</span>
+  categories: [Development, Other Work]
   image: ACDB.jpg
   url: '#'
 
 # Portfolio Item
-- title: A<span class="thin">ctive </span> Controls Website
-  categories: [Development, Websites]
-  image: img-06.jpg
-  url: '#'
+- title: A<span class="thin">ctive Controls Website</span> 
+  categories: [Development, Websites, Other Work]
+  image: ACW.jpg
+  url: 'http://www.activecontrols.com/'
 
 
 
@@ -439,3 +441,4 @@ contact-description: I'd love to talk with you about any job opportunities.  Giv
 # footer-copyright-text: Gleesik&trade;
 # footer-copyright-url: http://gleesik.ro/
 footer-copyright-year: 2018
+

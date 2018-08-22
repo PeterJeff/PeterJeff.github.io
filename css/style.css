@@ -4004,6 +4004,7 @@ section.portfolio-section .portfolio-grid .item {
   display: block;
   position: relative;
   overflow: hidden;
+  max-height: 200px;
   margin-bottom: 30px;
   -webkit-transform: scale(0.95);
       -ms-transform: scale(0.95);
@@ -4086,6 +4087,8 @@ section.portfolio-section .portfolio-grid .item .item-content h3, section.portfo
 section.portfolio-section .portfolio-grid .item .item-content h3 {
   font-size: 2rem;
   margin-bottom: 10px;
+  max-width: 300px;
+  text-align: center;
 }
 
 section.portfolio-section .portfolio-grid .item .item-content .links {
@@ -4142,6 +4145,18 @@ section.parallax-features-section {
   color: #f4f8f9;
 }
 
+@media (min-width: 992px) {
+  section.parallax-features-section .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.parallax-features-section .container {
+    width: 800px;
+  }
+}
+
 section.parallax-features-section header.section-header h2, section.parallax-features-section header.section-header h3, section.parallax-features-section header.section-header h4 {
   color: #fff;
 }
@@ -4192,6 +4207,7 @@ section.parallax-features-section .section-features .feature {
   width: 100%;
   margin-bottom: 30px;
   background: rgba(0, 0, 0, 0.8);
+  min-height: 90px;
   padding: 10px;
 }
 

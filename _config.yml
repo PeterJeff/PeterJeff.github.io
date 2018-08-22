@@ -175,62 +175,45 @@ portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex
 #
 # Portfolio Grid
 #
-portfolio-categories: [Games, SideProjects, Websites ]
+portfolio-categories: [Games, SideProjects, Websites, Other Work ]
 portfolio:
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
+- title: D<span class="thin">eltaMind</span>
+  categories: [Games]
+  image: deltamind.jpg
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
+- title: A<span class="thin">ge of The Void</span>
+  categories: [Games]
+  image: AoTV.jpg
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
+- title: A<span class="thin">rduino</span> GPS System
+  categories: [SideProjects]
+  image: AGPS.jpg
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
+- title: F<span class="thin">irst</span> Game
+  categories: [Games]
+  image: First.jpg
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
+- title: A<span class="thin">ctive</span> Controls Database
+  categories: [Development, Work]
+  image: ACDB.jpg
   url: '#'
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
+- title: A<span class="thin">ctive </span> Controls Website
+  categories: [Development, Websites]
   image: img-06.jpg
   url: '#'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
 
 
 #####################################
@@ -257,7 +240,7 @@ core-features-left:
 
 # Feature
 - name: DirectX
-  description: DX11 HLSL - lighting, Geometry & Compute shaders
+  description: DX11 HLSL - Lighting, Geometry & Compute shaders
   icon: pe-7s-photo
 
 # Feature
@@ -452,7 +435,7 @@ contact-description: I'd love to talk with you about any job opportunities.  Giv
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+# footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
 # footer-copyright-text: Gleesik&trade;
 # footer-copyright-url: http://gleesik.ro/
 footer-copyright-year: 2018

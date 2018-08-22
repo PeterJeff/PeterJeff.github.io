@@ -10,7 +10,16 @@ section.parallax-features-section {
   position: relative;
   padding-bottom: 50px;
   color: $light-blue;
-
+   @media (min-width: 992px) {
+    .container {
+      width: 800px;
+    }
+   }
+   @media (min-width: 1200px) {
+    .container {
+      width: 800px;
+    }
+   }
   // Section Header
   header.section-header {
     h2, h3, h4 {
@@ -69,7 +78,7 @@ section.parallax-features-section {
       width: 100%;
       margin-bottom: 30px;
       background: rgba(0, 0, 0, 0.8);
-  
+      min-height: 90px;
       padding: 10px;
 
       // Text Wrap

@@ -184,7 +184,7 @@ portfolio:
 - title: D<span class="thin">eltaMind</span>
   categories: [Games, Development]
   image: deltamind.jpg
-  url: '#'
+  url: 'https://github.com/FSPeterJ/Deltamind'
 
 # Portfolio Item
 - title: A<span class="thin">ge of The Void</span>

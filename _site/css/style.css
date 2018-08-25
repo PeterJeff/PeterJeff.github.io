@@ -4004,7 +4004,6 @@ section.portfolio-section .portfolio-grid .item {
   display: block;
   position: relative;
   overflow: hidden;
-  max-height: 200px;
   margin-bottom: 30px;
   -webkit-transform: scale(0.95);
       -ms-transform: scale(0.95);
@@ -4012,6 +4011,8 @@ section.portfolio-section .portfolio-grid .item {
   -webkit-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  height: 200px;
+  min-height: 200px;
 }
 
 section.portfolio-section .portfolio-grid .item .img-wrap {

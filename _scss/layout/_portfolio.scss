@@ -66,11 +66,11 @@ section.portfolio-section {
       display: block;
       position: relative;
       overflow: hidden;
-      max-height: 200px;
       margin-bottom: 30px;
       transform: scale(0.95);
       transition: all $transition-links $transition-links-type;
-
+      height: 200px;
+      min-height: 200px;
       // Item Image
       .img-wrap {
         position: relative;

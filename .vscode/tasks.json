@@ -45,6 +45,11 @@
             "type": "gulp",
             "task": "jekyll-watch",
             "problemMatcher": []
+        },
+        {
+            "type": "gulp",
+            "task": "manual-watch",
+            "problemMatcher": []
         }
     ]
 }

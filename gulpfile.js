@@ -3,7 +3,7 @@ var browserSync = require('browser-sync');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var cp = require('child_process');
-var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
 var deploy = require("gulp-gh-pages");
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -14,9 +14,13 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
 
-    return cp.spawn(jekyll, ['build'], { stdio: 'inherit' })
-        .on('close', done);
+    // return cp.spawn('jekyll.bat', ['build'], { stdio: 'inherit' }).on('close', done);
+    //return cp.exec('jekyll.bat', ['build', '--watch', '--incremental', '--force_polling'], { stdio: 'inherit' }).on('close', done);
+    //return cp.exec('jekyll.bat', ['build'], {stdio: 'inherit'}).on('close', done);
+    // return cp.spawn(jekyll, ['build', '--watch', '--incremental', '--force_polling'], { stdio: 'inherit' })
+    // .on('close', done);
 });
 
 /**
@@ -38,8 +42,7 @@ gulp.task('jekyll-watch', ['jekyll-build'], function (done) {
             baseDir: '_site'
         }
     });
-    return cp.spawn(jekyll, ['build', '--watch', '--incremental', '--force_polling'], { stdio: 'inherit' })
-    .on('close', done);
+    return cp.spawn(jekyll, ['build', '--watch', '--incremental', '--force_polling'], { stdio: 'inherit' }).on('close', done);
 });
 
 
@@ -47,6 +50,18 @@ gulp.task('jekyll-watch', ['jekyll-build'], function (done) {
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+});
+
+
+gulp.task('manual-watch', ['sass'], function () {
+    gulp.watch(['_scss/*.scss', '_scss/*/*.scss'], ['sass']);
+    gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
+
     browserSync({
         server: {
             baseDir: '_site'

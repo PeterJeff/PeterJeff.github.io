@@ -4,6 +4,10 @@
 # .jekyll-metadata
 # Gemfile.lock
 
+### Node ###
+node_modules
+
+
 # ### Atom ###
 # .ftpconfig
 # .sftpconfig

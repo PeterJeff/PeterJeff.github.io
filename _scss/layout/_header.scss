@@ -11,7 +11,7 @@ header.site-header {
   width: 100%;
   height: 100vh;
   max-height: 1080px;
-  z-index: 1;
+  z-index: 10;
 
   // Blog Header
   &.blog-header {
@@ -39,6 +39,7 @@ header.site-header {
     max-height: 1080px;
     top: 0;
     left: 0;
+    z-index: 1;
   }
 
   .container {
@@ -49,11 +50,35 @@ header.site-header {
 
   // Site Navigation Bar
   .site-navigation-bar {
-    position: relative;
-    height: 100px;
-    min-height: 100px;
-    z-index: 2;
+    position: fixed;
+    height: 57px;
+    width: 100%;
+    min-height: 57px;
+    z-index: 5;
+    background: rgba(32, 32, 32, .75);
+    background: #202020bf;
+    #backpanel{
+      width: 100%;
+      height: 100%;
+      position: absolute;
 
+      
+    }
+    .centered-column {
+      position: relative;
+      height: 100%;
+      margin:auto;
+    }
+    @media (min-width: 992px) {
+      .centered-column {
+        width: 970px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .centered-column {
+        width: 1170px;
+      }
+    }
     // Logo
     .logo {
       img {

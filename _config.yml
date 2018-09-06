@@ -199,23 +199,23 @@ portfolio:
   image: AGPS.jpg
   url: 'https://github.com/FSPeterJ/GeoCacheProject'
 
-# Portfolio Item
-- title: F<span class="thin">irst Game</span>
-  categories: [Games]
-  image: First.jpg
-  url: '#'
+# # Portfolio Item
+# - title: F<span class="thin">irst Game</span>
+#   categories: [Games]
+#   image: First.jpg
+#   url: '#'
 
-  # Portfolio Item
-- title: DirectX<span class="thin">Project</span>
-  categories: [Games]
-  image: DirectX.jpg
-  url: '#'
+#   # Portfolio Item
+# - title: DirectX<span class="thin">Project</span>
+#   categories: [Games]
+#   image: DirectX.jpg
+#   url: '#'
 
-    # Portfolio Item
-- title: G<span class="thin">ame Engine Tests</span>
-  categories: [Games]
-  image: GameEngine.jpg
-  url: '#'
+#     # Portfolio Item
+# - title: G<span class="thin">ame Engine Tests</span>
+#   categories: [Games]
+#   image: GameEngine.jpg
+#   url: '#'
 
 # Portfolio Item
 - title: A<span class="thin">ctive Controls Database</span>

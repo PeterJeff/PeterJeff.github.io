@@ -191,13 +191,13 @@ portfolio:
 - title: A<span class="thin">ge of The Void</span>
   categories: [Games, Development]
   image: AoTV.jpg
-  url: '#'
+  url: 'https://github.com/PeterJeff/AoTV'
 
 # Portfolio Item
 - title: A<span class="thin">rduino GPS Project</span>
   categories: [SideProjects]
   image: AGPS.jpg
-  url: 'https://github.com/FSPeterJ/GeoCacheProject'
+  url: 'https://github.com/PeterJeff/GeoCacheProject'
 
 # # Portfolio Item
 # - title: F<span class="thin">irst Game</span>

@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://gleesik.ro/"
   },
-  "homepage": "https://gleesik.ro/"
+  "homepage": "https://gleesik.ro/",
+  "dependencies": {
+    "npm": "^6.9.0"
+  }
 }

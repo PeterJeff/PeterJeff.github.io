@@ -139,7 +139,7 @@ mailchimp:
 #####################################
 about-title: Hi I'm Peter Jefferys
 #about-description: I'm looking to break into the game development industry and apply what I have learned.  Videogames have always played a large part in my life growing up and now it's my turn to contribute.
-about-description: Videogames and computers have always played a large part in my life.  I've played a lot of games while growing up became interested in the how they work.  I started my career in IT as a database developer while attending a local community college.  I used what earned to transferred to Full Sail to earn my bachelor of game development.
+about-description: Videogames and computers have always played a large part in my life.  I've played a lot of games while growing up and became interested in how they work.  I started my career in IT as a Database Developer while attending a local community college.  I used what earned to transferred to Full Sail to earn my bachelors in Game Development.
 # about-description: Videogames and computers have always played a large part in my life.  Growing up I enjoyed numerous games and became interested in the construction and software aspects of computers.  I started my professional career in IT as a database developer while attending a local community college.  I later transferred to Full Sail to earn my bachelor of game development.......  I am passionate about coding and game development and eager to contribute to your company.
 
 #####################################
@@ -173,7 +173,7 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Portfolio
-portfolio-description: These are some of my projects that have worked on during my past jobs, education or on my own.
+portfolio-description: These are some of my projects that I have worked on during my past jobs, education or on my own.
 
 #
 # Portfolio Grid
@@ -229,6 +229,12 @@ portfolio:
   image: ACW.jpg
   url: 'http://www.activecontrols.com/'
 
+# Portfolio Item
+- title: Mobility<span class="thin">Parts and Service Website</span> 
+  categories: [Development, Websites, Other Work]
+  image: MPSW.png
+  url: 'https://mobilitypartsandservice.com/'
+
 
 
 #####################################
@@ -245,7 +251,7 @@ core-features-left:
 
 # Feature
 - name: C++
-  description: My favorite programming language.  C++ 11 & 17
+  description: My favorite programming language but not limited to
   icon: pe-7s-light
 
 # # Feature
@@ -260,8 +266,14 @@ core-features-left:
 
 # Feature
 - name: Unity
-  description: Game prototype projects & VRChat avatars
+  description: Game prototype projects
   icon: pe-7s-plugin
+
+  
+# Feature
+- name: Blender
+  description: Worked on VRChat avatars
+  icon: pe-7s-tools
 
 #
 # Core Features Right
@@ -280,13 +292,19 @@ core-features-right:
 
 # Feature
 - name: Teamwork
-  description: Two team projects (Unity & C++ Custom)
+  description: Team projects (Unity & C++ Custom)
   icon: pe-7s-users
 
 # Feature
 - name: Visual Studio 2017
-  description: Standard primary IDE experience
+  description: Standard IDE experience
   icon: pe-7s-tools
+
+# Feature
+- name: Visual Studio Code
+  description: Secondary "IDE"
+  icon: pe-7s-tools
+
 
 
 #####################################
@@ -453,5 +471,5 @@ contact-description: I would love to speak with you about potential job opportun
 # footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
 # footer-copyright-text: Gleesik&trade;
 # footer-copyright-url: http://gleesik.ro/
-footer-copyright-year: 2018
+footer-copyright-year: 2019
 

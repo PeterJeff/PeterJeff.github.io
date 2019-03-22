@@ -26,7 +26,7 @@
             <li data-filter="all" class="current">All</li>
 
             {% for category in site.portfolio-categories %}
-              <li data-filter=".{{ category | replace:' ','-' | downcase }}" >{{ category }}</li>
+            <li data-filter=".{{ category | replace:' ','-' | downcase }}">{{ category }}</li>
             {% endfor %}
 
           </ul>
@@ -43,17 +43,19 @@
         <figure class="img-wrap">
           <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />
         </figure>
-        <div class="item-content">
-          <h3>{{ item.title }}</h3>
-          <h4>{{ item.categories | first }}</h4>
-          <div class="links">
-            <ul>
-              <li><a href="{{ item.url }}" class="item-link"><i class="pe-7s-link"></i></a></li>
-              <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li>
-              <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
-            </ul>
+        <a href="{{ item.url }}" >
+          <div class="item-content">
+            <h3>{{ item.title }}</h3>
+            <h4>{{ item.categories | first }}</h4>
+            <!-- <div class="links">
+              <ul>
+                <li><a href="{{ item.url }}" class="item-link"><i class="pe-7s-link"></i></a></li>
+                <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li>
+                <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
+              </ul>
+            </div> -->
           </div>
-        </div>
+        </a>
       </div>
 
       {% endfor %}

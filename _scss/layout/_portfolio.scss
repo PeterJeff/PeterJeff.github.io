@@ -141,7 +141,12 @@ section.portfolio-section {
             li {
               display: inline-block;
               font-size: 1.9rem;
-
+              .item-like{
+                display: none;
+              }
+              .pe-7s-like{
+                display: none;
+              }
               a {
                 display: block;
                 padding: 5px;

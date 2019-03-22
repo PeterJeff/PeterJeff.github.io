@@ -5002,7 +5002,7 @@ section.contact-section .form-container form.contact-form input, section.contact
 section.contact-section .form-container form.contact-form input:hover, section.contact-section .form-container form.contact-form input:active, section.contact-section .form-container form.contact-form textarea:hover, section.contact-section .form-container form.contact-form textarea:active {
   color: #fff;
   border-color: #21c2f8;
-  background: rgba(33, 194, 248, 0.25);
+  background: rgba(33, 194, 248, 0.5);
 }
 
 section.contact-section .form-container form.contact-form input:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form input:active::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:hover::-webkit-input-placeholder, section.contact-section .form-container form.contact-form textarea:active::-webkit-input-placeholder {

@@ -152,6 +152,7 @@ header.site-header {
     height: calc(100vh - 250px);
     max-height: calc(1080px - 250px);
     z-index: 2;
+    margin: 100px 0;
     color: $white;
 
     .heading-content {

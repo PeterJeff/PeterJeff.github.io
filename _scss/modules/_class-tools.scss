@@ -78,12 +78,12 @@
 .parallax .cover {
 	position: absolute;
 	display: block;
-	width: 100%;
+  width: 100%;
+  top:0;
 	height: 100%;
 	z-index: -999999;
 
   img {
-  	position: absolute;
   	display: block;
     width: auto;
   	min-width: 100%;
@@ -91,7 +91,6 @@
     max-width: inherit;
     max-height: inherit;
   	top: 50%;
-  	left: 50%;
   	transform: translate(-50%, -50%);
   }
 

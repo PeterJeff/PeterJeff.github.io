@@ -4,7 +4,7 @@
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-      <img src="{{ site.baseurl }}/images/{{ page.header-img}}" alt="Sera - One Page Template by Gleesik Wallpaper" />
+      <img src="{{ site.baseurl }}/images/{{ page.header-img}}" class="parallax-tag" alt="{{ page.header-alt}}" />
     </div>
   </div>
 
@@ -68,6 +68,22 @@
           <hr class="small">
           <h1 class="thin">{{ page.title }}</h1>
         </div>
+
+        <!-- Header Buttons -->
+        <div class="row buttons-header">
+            <div class="col-lg-4 col-lg-push-0 col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
+              <a href="{{ page.header-tertiary-button.url }}"
+                class="button-cta">{{ page.header-tertiary-button.title }}</a>
+            </div>
+            <div class="col-lg-4 col-lg-push-0 col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
+              <a href="{{ page.header-focus-button.url }}"
+                class="button-cta button-focus">{{ page.header-focus-button.title }}</a>
+            </div>
+            <div class="col-lg-4 col-lg-push-0 col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
+              <a href="{{ page.header-secondary-button.url }}"
+                class="button-cta">{{ page.header-secondary-button.title }}</a>
+            </div>
+          </div>
 
       </div>
 

@@ -11,7 +11,8 @@
 		{% include header-pages.html %}
 
 
-	
+    {% if page.tagline != null %} {{ page.type }} {% else %} {{ page.tagline }} {% endif %}
+
 		{% include sections/about-subpage.html %}
 
 		{% include sections/parallax-focus.html %}

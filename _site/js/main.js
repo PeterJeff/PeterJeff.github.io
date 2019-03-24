@@ -31,7 +31,7 @@
      *  Parallax with Scrollax.js - Initialization
      **/
     'use strict';
-    $.Scrollax();
+    //$.Scrollax();
 
     /**
      *  Main Menu Navigation
@@ -200,7 +200,15 @@
       }
     });
 
+    var image = document.getElementsByClassName('parallax-tag');
+    new simpleParallax(image, {
+      delay: .6,
+      scale: 1.2,
+      transition: 'cubic-bezier(0,0,0,1)'
+    });
+
   });
 
 }(window.jQuery, window, document));
 // The global jQuery object is passed as a parameter
+

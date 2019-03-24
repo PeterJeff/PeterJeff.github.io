@@ -59,15 +59,20 @@ headter-tagline: Let's build
 ######   CTA Header Buttons   ######
 ####################################
 
-# Focus Buttons
+# Focus Button
 header-focus-button:
   title: Resume
   url: https://drive.google.com/file/d/1-liMXWR0aTtOn1Bf02A5Mma9kJq4oGvE/view
 
-# Secondary Buttons
+# Secondary Button
 header-secondary-button:
   title: LinkedIn
   url: https://www.linkedin.com/in/peter-jefferys/
+
+# Tertiary Button
+header-tertiary-button:
+  title: Github
+  url: https://github.com/PeterJeff
 
   linkedin: https://www.linkedin.com/in/peter-jefferys/
 

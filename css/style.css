@@ -271,12 +271,12 @@ table {
   position: absolute;
   display: block;
   width: 100%;
+  top: 0;
   height: 100%;
   z-index: -999999;
 }
 
 .parallax .cover img {
-  position: absolute;
   display: block;
   width: auto;
   min-width: 100%;
@@ -284,7 +284,6 @@ table {
   max-width: inherit;
   max-height: inherit;
   top: 50%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -3261,6 +3260,7 @@ header.site-header .header-banner {
   max-height: -webkit-calc(1080px - 250px);
   max-height: calc(1080px - 250px);
   z-index: 2;
+  margin: 100px 0;
   color: #fff;
 }
 

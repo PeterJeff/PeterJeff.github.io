@@ -1,8 +1,5 @@
 # ### Jekyll ###
 
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
 
 ### Node ###
 node_modules

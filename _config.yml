@@ -230,13 +230,13 @@ portfolio:
 
 # Portfolio Item
 - title: A<span class="thin">ctive Controls Website</span> 
-  categories: [Development, Websites, Other Work]
+  categories: [Websites, Other Work]
   image: ACW.jpg
   url: 'http://www.activecontrols.com/'
 
 # Portfolio Item
 - title: Mobility<span class="thin">Parts and Service Website</span> 
-  categories: [Development, Websites, Other Work]
+  categories: [Websites,  Other Work]
   image: MPSW.png
   url: 'https://mobilitypartsandservice.com/'
 
